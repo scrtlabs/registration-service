@@ -5,3 +5,8 @@
 local.settings.json
 test
 .env
+bin
+include
+lib
+lib64
+pyenv.cfg
