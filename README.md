@@ -6,6 +6,8 @@ An Azure Functions service for registering Secret Network nodes using remote att
 
 This service provides a secure HTTP endpoint for registering Secret Network nodes by validating and processing remote attestation certificates. The service interacts with the Secret Network blockchain using the SecretJS library to authenticate nodes via the RA (Remote Attestation) authentication mechanism.
 
+The service uses a built-in wallet to pay for transactions.
+
 ## Architecture
 
 - **Platform**: Azure Functions (TypeScript)
